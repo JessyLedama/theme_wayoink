@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 {
     'name': 'Wayoink Theme',
     'description': 'An Odoo theme for Wayoink website. .',
@@ -7,5 +8,7 @@
 
     'depends': ['website', 'website_theme_install'],
     'data': [
+        'views/assets.xml',
+        
     ],
 }
